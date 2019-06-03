@@ -1,11 +1,13 @@
 # lottery-ticket-hypothesis-Mxnet
-A reimplementation of "The Lottery Ticket Hypothesis" (Frankle and Carbin) by Mxnet for FC network.
+A reimplementation of "The Lottery Ticket Hypothesis" (Frankle and Carbin) by Mxnet for FC network. Some of the code are directly borrowed from the first reference.
 
-##Requirment
+If you are using mxnet with CPU version, please modify the `ctx`. 
+
+## Requirment
 - numpy 
 - pandas
 - sklearn
-- mxnet >=1.3.0
+- mxnet >=1.3.0 (GPU version)
 - import matplotlib.pyplot as plt
 
 ## Reference
