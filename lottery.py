@@ -133,7 +133,7 @@ for e in range(epochs):
         trainer.step(batch_size)#,ignore_stale_grad=True) ###ignore
         cumulative_loss += nd.mean(loss).asscalar()
     
-    if e%5==0:
+    if e%5==0 and e!=0:
         
         
         final_w=get_weights(maskednet.net)        
